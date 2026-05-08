@@ -1,0 +1,11 @@
+[project]
+name = "student-csv-registry-lab"
+version = "0.1.0"
+description = "CSV registry lab for create, list, search, and remove operations using fictional records."
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Alberto Mateus P. da Gama" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
